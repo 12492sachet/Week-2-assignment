@@ -42,4 +42,11 @@ console.log("falsy value as boolean:", falsyBoolean);   // it will display "fals
 
 
 
+// I created a currentDate variable and initialized it with the current date and time using the new Date() constructor.
+const currentDate = new Date();
 
+// Using the getTime method to convert currentDate` to a number representing the number of milliseconds since January 1, 1970 (UNIX epoch time).
+const dateAsNumber = currentDate.getTime();
+
+//Displaying the converted number in the console.
+console.log("Current date as a number (milliseconds since January 1, 1970):", dateAsNumber);
